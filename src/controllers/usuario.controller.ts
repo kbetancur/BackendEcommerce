@@ -1,3 +1,6 @@
+
+//Comentario para probar deployment nuevamente
+
 import { authenticate } from '@loopback/authentication';
 import { service } from '@loopback/core';
 import {
@@ -54,7 +57,7 @@ export class UsuarioController {
           nombre: u.nombre,
           correo: u.correo
 
-        }, 
+        },
         tk: token
 
       }
@@ -100,10 +103,10 @@ export class UsuarioController {
     })
 
     return p;
-    
 
 
-    
+
+
   }
 
   //@authenticate.skip()
