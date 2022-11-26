@@ -65,3 +65,4 @@ typings/
 
 # Ignorar archivo configuración datasource
 /datasoruces/mongodb.datasource.ts
+.vercel
